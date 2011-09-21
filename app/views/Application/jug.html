@@ -1,0 +1,11 @@
+#{extends 'main.html' /}
+#{set title:'JUG' /}
+
+<div class="well">
+	<h2>${jug.name}</h2>
+	<p>${jug.description}</p>
+
+	<div class="map">
+	<img src="http://maps.googleapis.com/maps/api/staticmap?center=${jug.latitude},${jug.longitude}&zoom=11&size=512x512&sensor=false&markers=color:red%7C%7C${jug.latitude},${jug.longitude}">
+	</div>
+</div>

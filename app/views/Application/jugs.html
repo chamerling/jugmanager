@@ -1,0 +1,9 @@
+#{extends 'main.html' /}
+#{set title:'JUGs' /}
+
+  #{list jugs, as : 'jug'}
+	<div class="well">
+    <h2><a href="@{Application.jug(jug.id)}">${jug.name}</h2>
+    </div>
+  #{/list}
+

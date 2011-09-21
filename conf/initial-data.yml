@@ -1,0 +1,29 @@
+# YAML file
+
+JUG(Montpellier):
+  name: Montpellier JUG
+  description: The JUG Description
+  city: Montpellier
+  country: France
+  longitude: 3.877
+  latitude: 43.611
+  website: http://jug-montpellier.org
+  email: chamerling.ebmws@gmail.com
+  twitter: montpellierjug
+  api:
+  apiVersion: 0.1
+  registeredAt: 123
+  
+JUG(Poussan):
+  name: Poussan JUG
+  description: The Poussan JUG Description
+  city: Poussan
+  country: France
+  longitude: 3.669
+  latitude: 43.488
+  website: http://jug-poussan.org
+  email: chamerling.ebmws@gmail.com
+  twitter: chamerling
+  api:
+  apiVersion: 0.1
+  registeredAt: 124
